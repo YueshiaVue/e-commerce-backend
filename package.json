@@ -1,0 +1,27 @@
+{
+  "name": "e-commerce-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YueshiaVue/e-commerce-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YueshiaVue/e-commerce-backend/issues"
+  },
+  "homepage": "https://github.com/YueshiaVue/e-commerce-backend#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "gitignore": "^0.7.0",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.6.5"
+  }
+}
