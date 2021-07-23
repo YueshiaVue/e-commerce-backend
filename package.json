@@ -5,14 +5,15 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "seed": "node seeds/seed.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/YueshiaVue/e-commerce-backend.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Cody",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/YueshiaVue/e-commerce-backend/issues"
@@ -20,8 +21,11 @@
   "homepage": "https://github.com/YueshiaVue/e-commerce-backend#readme",
   "dependencies": {
     "dotenv": "^10.0.0",
+    "express": "^4.17.1",
     "gitignore": "^0.7.0",
+    "mysql": "^2.18.1",
     "mysql2": "^2.2.5",
+    "seed": "^0.4.4",
     "sequelize": "^6.6.5"
   }
 }
